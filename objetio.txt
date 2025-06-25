@@ -1,0 +1,111 @@
+Claro! Aqui está um prompt completo para gerar uma landing page moderna e chamativa para uma barbearia com base nas informações que você passou. O estilo é visualmente atraente, com um layout moderno e foco em conversão.
+
+🎯 Prompt para gerar uma Landing Page Moderna de Barbearia
+
+Título principal (Hero Section):
+
+BARBEARIA
+
+Encontre o corte perfeito para você!
+
+Mensagem de destaque (subtítulo ou slogan):
+
+Estilo, atitude e cuidado para o homem moderno. Agende seu horário com o mestre das lâminas, Régio Faissal.
+
+💈 Seção de Procedimentos e Valores (com destaques):
+
+Procedimentos & Valores
+
+✂️ Corte de Cabelo — R$ 30,00
+
+Escolha seu estilo:
+
+Social
+
+Com Navalha
+
+Degradê
+
+Tesoura
+
+Fade
+
+Freestyle
+
+Blindado
+
+Sombreamento Nudred
+
+Em V
+
+Faux Hawk
+
+Pompoador
+
+Razor Part
+
+Americano
+
+Flat Top
+
+Penteado Dimil
+
+Franja Caída
+
+🧔 Barba — R$ 30,00
+
+Barbear com personalidade:
+
+Barbo Terapia
+
+Baldo
+
+Espartana
+
+Lenhador
+
+Quadrada
+
+Serrada
+
+Tidy Carefree
+
+Cavanhaque
+
+No Vaporizador de Ozônio
+
+👁️ Sobrancelha — R$ 15,00
+
+💧 Hidratação — R$ 20,00
+
+👣 Pézinho — R$ 15,00
+
+🎨 Pigmentação — R$ 50,00
+
+👨‍🎨 Sobre o Profissional:
+
+Régio Faissal
+
+Barbeiro especialista em cortes personalizados, com experiência e estilo refinado para deixar você no seu melhor. Atendimento profissional, ambiente moderno e serviços de alta qualidade.
+
+📆 Chamada para ação (Call to Action):
+
+Agende agora seu horário!
+
+Transforme seu visual com quem entende de estilo masculino.
+
+Botão: [Agendar Atendimento]
+
+🎨 Estilo visual sugerido para o site:
+
+Paleta de cores: preto, azul, branco e vermelho escuro para detalhes.
+
+Tipografia moderna e masculina (ex: Montserrat, Bebas Neue).
+
+Fundo com imagens de cortes estilosos e ambiente da barbearia.
+
+Efeitos de transição suaves, botões animados.
+
+Seções com ícones para cada serviço.
+
+transformar esse conteúdo em HTML5/CSS moderno seja responsivo celular e desktop .
