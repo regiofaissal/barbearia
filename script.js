@@ -1,4 +1,64 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Função para configurar modais
+    function setupModal(itemId, modalId) {
+        const item = document.getElementById(itemId);
+        const modal = document.getElementById(modalId);
+        const closeBtn = modal.querySelector('.close-modal');
+
+        item.addEventListener('click', () => {
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+            setTimeout(() => {
+                modal.style.opacity = '1';
+                modal.querySelector('.modal-content').style.transform = 'scale(1)';
+            }, 10);
+        });
+
+        closeBtn.addEventListener('click', () => closeModal(modal));
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal(modal);
+        });
+    }
+
+    function closeModal(modal) {
+        modal.style.opacity = '0';
+        modal.querySelector('.modal-content').style.transform = 'scale(0.7)';
+        document.body.style.overflow = 'auto';
+        setTimeout(() => {
+            modal.style.display = 'none';
+        }, 300);
+    }
+
+    // Configurar modais para todos os itens
+    // Modais de barba
+    setupModal('barboterapia-item', 'barboterapia-modal');
+    setupModal('baldo-item', 'baldo-modal');
+    setupModal('espartana-item', 'espartana-modal');
+    setupModal('lenhador-item', 'lenhador-modal');
+    setupModal('quadrada-item', 'quadrada-modal');
+    setupModal('serrada-item', 'serrada-modal');
+    setupModal('Tidy-Carefree-item', 'Tidy-Carefree-modal');
+    setupModal('Cavanhaque-item', 'Cavanhaque-modal');
+    setupModal('Vaporizador-item', 'Vaporizador-modal');
+    
+    // Modais de corte
+    setupModal('degrade-item', 'degrade-modal');
+    setupModal('social-item', 'social-modal');
+    setupModal('Navalha-item', 'Navalha-modal');
+    setupModal('Tesoura-item', 'Tesoura-modal');
+    setupModal('Fade-item', 'Fade-modal');
+    setupModal('Freestyle-item', 'Freestyle-modal');
+    setupModal('Blindado-item', 'Blindado-modal');
+    setupModal('Sombreamento-Nudred-item', 'Sombreamento-Nudred-modal');
+    setupModal('V-item', 'V-modal');
+    setupModal('Faux-Hawk-item', 'Faux-Hawk-modal');
+    setupModal('Pompoador-item', 'Pompoador-modal');
+    setupModal('Razor-Part-item', 'Razor-Part-modal');
+    setupModal('Americano-item', 'Americano-modal');
+    setupModal('Flat-Top-item', 'Flat-Top-modal');
+    setupModal('Dimil-item', 'Dimil-modal');
+    setupModal('Franja-item', 'Franja-modal');
+
     // Menu Mobile
     const menuToggle = document.getElementById('menuToggle');
     const navLinks = document.getElementById('navLinks');
