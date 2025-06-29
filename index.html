@@ -42,6 +42,7 @@
             <h2>Procedimentos Adulto & Infantil</h2>
             
             <div class="service-card">
+                <br> <br> <br>
                 <div class="service-header">
                     <span class="icon">✂️</span>
                     <h3>Corte de Cabelo</h3>
@@ -50,45 +51,274 @@
                 <div class="service-styles">
                     <h4>Escolha seu estilo:</h4>
                     <ul>
-                        <li>Social</li>
-                        <li>Com Navalha</li>
-                        <li>Degradê</li>
-                        <li>Tesoura</li>
-                        <li>Fade</li>
-                        <li>Freestyle</li>
-                        <li>Blindado</li>
-                        <li>Sombreamento Nudred</li>
-                        <li>Em V</li>
-                        <li>Faux Hawk</li>
-                        <li>Pompoador</li>
-                        <li>Razor Part</li>
-                        <li>Americano</li>
-                        <li>Flat Top</li>
-                        <li>Penteado Dimil</li>
-                        <li>Franja Caída</li>
+                        <li id="degrade-item">Degradê</li>
+                        <div class="modal" id="degrade-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/degrade1.png" alt="Corte Degradê Estilo 1">
+                                    <img src="img/degrade2.png" alt="Corte Degradê Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="social-item">Social</li>
+                        <div class="modal" id="social-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/corte-social1.png" alt="Corte Social Estilo 1">
+                                    <img src="img/corte-social2.png" alt="Corte Social Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Navalha-item">Navalhado</li>
+                        <div class="modal" id="Navalha-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Navalha1.png" alt="Corte Navalha Estilo 1">
+                                    <img src="img/Navalha2.png" alt="Corte Navalha Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Tesoura-item">Tesoura</li>
+                        <div class="modal" id="Tesoura-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Tesoura1.png" alt="Corte Tesoura Estilo 1">
+                                    <img src="img/Tesoura2.png" alt="Corte Tesoura Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Fade-item">Fade</li>
+                        <div class="modal" id="Fade-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Fade1.png" alt="Corte Fade Estilo 1">
+                                    <img src="img/Fade2.png" alt="Corte Fade Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Freestyle-item">Freestyle</li>
+                        <div class="modal" id="Freestyle-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Freestyle1.png" alt="Corte Freestyle Estilo 1">
+                                    <img src="img/Freestyle2.png" alt="Corte Freestyle Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Blindado-item">Blindado</li>
+                        <div class="modal" id="Blindado-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Blindado1.png" alt="Corte Blindado Estilo 1">
+                                    <img src="img/Blindado2.png" alt="Corte Blindado Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Sombreamento-Nudred-item">Nudred</li>
+                        <div class="modal" id="Sombreamento-Nudred-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Sombreamento-Nudred1.png" alt="Corte Sombreamento Nudred Estilo 1">
+                                    <img src="img/Sombreamento-Nudred2.png" alt="Corte Sombreamento Nudred Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="V-item">Em V</li>
+                        <div class="modal" id="V-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/v1.png" alt="Corte Em V Estilo 1">
+                                    <img src="img/v2.png" alt="Corte Em V Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Faux-Hawk-item">Faux Hawk</li>
+                        <div class="modal" id="Faux-Hawk-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Faux-Hawk1.png" alt="Corte Faux Hawk Estilo 1">
+                                    <img src="img/Faux-Hawk2.png" alt="Corte Faux Hawk Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Pompoador-item">Pompoador</li>
+                        <div class="modal" id="Pompoador-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Pompoador1.png" alt="Corte Pompoador Estilo 1">
+                                    <img src="img/Pompoador2.png" alt="Corte Pompoador Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Razor-Part-item">Razor Part</li>
+                        <div class="modal" id="Razor-Part-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Razor-Part1.png" alt="Corte Razor Part Estilo 1">
+                                    <img src="img/Razor-Part2.png" alt="Corte Razor Part Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Americano-item">Americano</li>
+                        <div class="modal" id="Americano-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Americano1.png" alt="Corte Americano Estilo 1">
+                                    <img src="img/Americano2.png" alt="Corte Americano Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Flat-Top-item">Flat Top</li>
+                        <div class="modal" id="Flat-Top-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Flat-Top1.png" alt="Corte Flat Top Estilo 1">
+                                    <img src="img/Flat-Top2.png" alt="Corte Flat Top Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Dimil-item">Penteado Dimil</li>
+                        <div class="modal" id="Dimil-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Dimil1.png" alt="Corte Penteado Dimil Estilo 1">
+                                    <img src="img/Dimil2.png" alt="Corte Penteado Dimil Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Franja-item">Franja Caída</li>
+                        <div class="modal" id="Franja-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Franja1.png" alt="Corte Franja Caída Estilo 1">
+                                    <img src="img/Franja2.png" alt="Corte Franja Caída Estilo 2">
+                                </div>
+                            </div>
+                        </div>
                     </ul>
+
+                    <br> <br> <br>
                 </div>
             </div>
 
             <div class="service-card">
+                <br> <br> <br>
                 <div class="service-header">
                     <span class="icon">🧔</span>
                     <h3>Barba</h3>
-                    <p class="price">R$ 30,00</p>
+                    <p class="price">R$ 25,00</p>
                 </div>
                 <div class="service-styles">
                     <h4>Barbear com personalidade:</h4>
                     <ul>
-                        <li>Barbo Terapia</li>
-                        <li>Baldo</li>
-                        <li>Espartana</li>
-                        <li>Lenhador</li>
-                        <li>Quadrada</li>
-                        <li>Serrada</li>
-                        <li>Tidy Carefree</li>
-                        <li>Cavanhaque</li>
-                        <li>No Vaporizador de Ozônio</li>
+                        <li id="barboterapia-item">Barboterapia</li>
+                        <div class="modal" id="barboterapia-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/barboterapia1.png" alt="Barboterapia Estilo 1">
+                                    <img src="img/barboterapia2.png" alt="Barboterapia Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="baldo-item">Baldo</li>
+                        <div class="modal" id="baldo-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/barba-baldo1.png" alt="Barba Baldo Estilo 1">
+                                    <img src="img/barba-baldo2.png" alt="Barba Baldo Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="espartana-item">Espartana</li>
+                        <div class="modal" id="espartana-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/espartana1.png" alt="Espartana Estilo 1">
+                                    <img src="img/espartana2.png" alt="Espartana Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="lenhador-item">Lenhador</li>
+                        <div class="modal" id="lenhador-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/lenhador1.png" alt="Lenhador Estilo 1">
+                                    <img src="img/lenhador2.png" alt="Lenhador Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="quadrada-item">Quadrada</li>
+                        <div class="modal" id="quadrada-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/quadrada1.png" alt="Quadrada Estilo 1">
+                                    <img src="img/quadrada2.png" alt="Quadrada Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="serrada-item">Serrada</li>
+                        <div class="modal" id="serrada-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/serrada1.png" alt="Serrada Estilo 1">
+                                    <img src="img/serrada2.png" alt="Serrada Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Tidy-Carefree-item">Tidy Carefree</li>
+                        <div class="modal" id="Tidy-Carefree-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Tidy-Carefree1.png" alt="Tidy Carefree Estilo 1">
+                                    <img src="img/Tidy-Carefree2.png" alt="Tidy Carefree Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Cavanhaque-item">Cavanhaque</li>
+                        <div class="modal" id="Cavanhaque-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/cavanhaque1.png" alt="Cavanhaque Estilo 1">
+                                    <img src="img/cavanhaque2.png" alt="Cavanhaque Estilo 2">
+                                </div>
+                            </div>
+                        </div>
+                        <li id="Vaporizador-item">No Vaporizador</li>
+                        <div class="modal" id="Vaporizador-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-images">
+                                    <img src="img/Vaporizador1.png" alt="Vaporizador Estilo 1">
+                                    <img src="img/Vaporizador2.png" alt="Vaporizador Estilo 2">
+                                </div>
+                            </div>
+                        </div>
                     </ul>
+                    <br> <br> <br>
                 </div>
             </div>
 
