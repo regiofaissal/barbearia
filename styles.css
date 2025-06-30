@@ -378,7 +378,26 @@ body {
     transition: opacity 0.3s ease;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    overscroll-behavior: contain;
+    touch-action: pan-y pinch-zoom;
     padding: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-primary) rgba(0, 0, 0, 0.1);
+}
+
+.modal::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.modal::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary);
+    border-radius: 4px;
 }
 
 .modal.show {
@@ -442,10 +461,40 @@ body {
 }
 
 @media (max-width: 768px) {
+    .modal.show {
+        align-items: flex-start;
+    }
+
+    .modal-content {
+        margin: 20px auto;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
     .modal-images {
         grid-template-columns: 1fr;
         aspect-ratio: auto;
-        gap: 20px;
+        max-height: 70vh;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: var(--color-primary) rgba(0, 0, 0, 0.1);
+        padding-right: 10px;
+    }
+
+    .modal-images::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .modal-images::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+    }
+
+    .modal-images::-webkit-scrollbar-thumb {
+        background-color: var(--color-primary);
+        border-radius: 4px;
+    }
+    
     }
 
     .modal-images img {
@@ -455,7 +504,7 @@ body {
     .modal-content {
         padding: 20px;
     }
-}
+
 
 /* Responsividade */
 /* Menu Mobile */
